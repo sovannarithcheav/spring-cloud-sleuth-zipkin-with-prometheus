@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-prometheus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/prometheus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin" charset="UTF-8" />
+  </component>
+</project>
