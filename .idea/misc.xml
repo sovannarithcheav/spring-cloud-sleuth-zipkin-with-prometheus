@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/sleuth/pom.xml" />
         <option value="$PROJECT_DIR$/health-check/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/health-check-client/pom.xml" />
+        <option value="$PROJECT_DIR$/embedded-postgres/pom.xml" />
+        <option value="$PROJECT_DIR$/client-elk/pom.xml" />
+        <option value="$PROJECT_DIR$/config-vault/pom.xml" />
       </list>
     </option>
   </component>

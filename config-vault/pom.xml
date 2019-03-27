@@ -9,13 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sovannarith</groupId>
-    <artifactId>health-check-client</artifactId>
+    <artifactId>config-vault</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>health-check-client</name>
-    <description>Demo project for Spring Boot</description>
+    <name>config-vault</name>
+    <description>Demo project for Spring Boot With Vault AppRole</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <spring-vault.version>2.1.1.RELEASE</spring-vault.version>
     </properties>
 
     <dependencies>
@@ -26,16 +27,32 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
+        <!--spring vault-->
         <dependency>
-            <groupId>com.sovannarith</groupId>
-            <artifactId>checkhealth</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <type>pom</type>
+            <groupId>org.springframework.vault</groupId>
+            <artifactId>spring-vault-core</artifactId>
+            <version>${spring-vault.version}</version>
         </dependency>
+
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

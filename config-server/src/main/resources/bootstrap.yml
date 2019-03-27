@@ -6,35 +6,10 @@ spring:
     #    active: git
     active: native
   cloud:
-    bus:
-      trace:
-        enabled: true
-    vault:
-      token: s.efLK2urQTOFA6oeCZTJkXalW
-      uri: http://localhost:8200
     config:
       server:
         native:
           search-locations: classpath:micro-service-properties/
-        vault:
-          order: 1
-        jdbc:
-          order: 2
-          sql: SELECT KEY, VALUE from  CONFIGURATION_PROPERTIES where APPLICATION=? and PROFILE=? and LABEL=?
-  datasource:
-    url: jdbc:postgresql://localhost:5432/config_properties
-    driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: 123456
-    hikari:
-      maximum-pool-size: 10
-      connection-timeout: 5000
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-
 server:
   port: 8888
 

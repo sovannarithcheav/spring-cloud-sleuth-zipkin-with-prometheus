@@ -1,0 +1,16 @@
+2019-03-21 17:27:07.193  INFO 18274 --- [main] c.s.c.ClientElkApplication               : Starting ClientElkApplication on Latitude-3580 with PID 18274 (/home/sovannarith/WorkSpaces/EQ/test/EQ-Test-Project/client-elk/target/classes started by sovannarith in /home/sovannarith/WorkSpaces/EQ/test/EQ-Test-Project)
+2019-03-21 17:27:07.206  INFO 18274 --- [main] c.s.c.ClientElkApplication               : No active profile set, falling back to default profiles: default
+2019-03-21 17:27:08.001  INFO 18274 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-03-21 17:27:08.025  INFO 18274 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-03-21 17:27:08.026  INFO 18274 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 17:27:08.032  INFO 18274 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-03-21 17:27:08.085  INFO 18274 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-03-21 17:27:08.085  INFO 18274 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 833 ms
+2019-03-21 17:27:08.279  INFO 18274 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 17:27:08.435  INFO 18274 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-21 17:27:08.440  INFO 18274 --- [main] c.s.c.ClientElkApplication               : Started ClientElkApplication in 2.063 seconds (JVM running for 2.925)
+2019-03-21 17:27:08.441  INFO 18274 --- [main] c.s.c.ClientElkApplication               : Info log
+2019-03-21 17:27:08.442  WARN 18274 --- [main] c.s.c.ClientElkApplication               : Hey, This is a warning!
+2019-03-21 17:27:08.442 ERROR 18274 --- [main] c.s.c.ClientElkApplication               : Oops! We have an Error. OK
+2019-03-21 17:27:08.442 FATAL 18274 --- [main] c.s.c.ClientElkApplication               : Damn! Fatal error. Please fix me.
+2019-03-21 17:37:51.252  INFO 18274 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'

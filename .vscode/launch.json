@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZipkinApplication",
+            "request": "launch",
+            "mainClass": "ZipkinApplication",
+            "projectName": "sovannarith"
+        }
+    ]
+}
