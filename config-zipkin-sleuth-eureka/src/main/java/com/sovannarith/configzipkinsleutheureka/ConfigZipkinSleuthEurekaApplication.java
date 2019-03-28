@@ -1,16 +1,13 @@
-package com.sovannarith.zipkin;
+package com.sovannarith.configzipkinsleutheureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
-@EnableZipkinServer
-public class ZipkinApplication {
+public class ConfigZipkinSleuthEurekaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZipkinApplication.class, args);
+		SpringApplication.run(ConfigZipkinSleuthEurekaApplication.class, args);
 	}
 
 }
-

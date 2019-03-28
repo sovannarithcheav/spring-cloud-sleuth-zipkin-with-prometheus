@@ -6,26 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client-elk" />
-        <module name="client-prometheus" />
-        <module name="config-server" />
-        <module name="config-vault" />
+        <module name="config-zipkin-sleuth-eureka" />
         <module name="embedded-postgres" />
-        <module name="health-check" />
-        <module name="health-check-client" />
-        <module name="prometheus" />
+        <module name="config-server" />
         <module name="sleuth" />
-        <module name="sovannarith" />
+        <module name="client" />
+        <module name="health-check-client" />
+        <module name="health-check" />
+        <module name="EQ-Test-Project" />
+        <module name="config-vault" />
+        <module name="prometheus" />
+        <module name="client-zipkin-sleuth-eureka" />
+        <module name="client-prometheus" />
         <module name="zipkin" />
+        <module name="checkhealth" />
+        <module name="client-elk" />
+        <module name="client-service" />
+        <module name="sovannarith" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EQ-Test-Project" options="-parameters" />
+      <module name="checkhealth" options="-parameters" />
+      <module name="client" options="-parameters" />
       <module name="client-elk" options="-parameters" />
       <module name="client-prometheus" options="-parameters" />
+      <module name="client-service" options="-parameters" />
+      <module name="client-zipkin-sleuth-eureka" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="config-vault" options="-parameters" />
+      <module name="config-zipkin-sleuth-eureka" options="-parameters" />
       <module name="embedded-postgres" options="-parameters" />
       <module name="health-check" options="-parameters" />
       <module name="health-check-client" options="-parameters" />
